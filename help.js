@@ -6,7 +6,7 @@ var monoSpace = '```'
 
 exports.listmenu = (sender,prefix,ad,namenya,premnya,usernya,romnya,tanggal,jam,no) => {
 return`
-━━━❲ 𝙂𝙐𝙍𝘽𝙊𝙏-𝙈𝘿 ━━━
+━━━❲ *𝐁𝐄𝐑𝐊𝐀𝐇𝐄𝐒𝐏𝐎𝐑𝐓.𝐈𝐃* ━━━
 
  𝗨𝗦𝗘𝗥 𝗜𝗡𝗙𝗢
  ID : @${sender.split('@')[0]}
@@ -19,7 +19,7 @@ return`
  Date : ${tanggal}
  Terdaftar : ${usernya}
  Room Chat : ${romnya}
- Total Fitur : ${no.length}
+ Total Fitur : 200+
 
  𝙈𝘼𝙄𝙉 𝙈𝙀𝙉𝙐 
  ${no++} ➳ ${prefix}menu
@@ -160,175 +160,6 @@ return`
  ${no++} ➳ ${prefix}room <only owner>
  ${no++} ➳ ${prefix}stopchat <only room>
  ${no++} ➳ ${prefix}menfess 628xx|bot|hai
-
- 𝙎𝙊𝙎𝙈𝙀𝘿 𝙎𝙃𝙊𝙋 
- ${no++} ➳ ${prefix}pricelist <layanan>
- ${no++} ➳ ${prefix}order <cara order>
- ${no++} ➳ ${prefix}like jumlah|target
- ${no++} ➳ ${prefix}view jumlah|target
- ${no++} ➳ ${prefix}follow jumlah|username
- ${no++} ➳ ${prefix}cekstatus <idtrx>
- ${no++} ➳ ${prefix}komisi <owner only>
- ${no++} ➳ ${prefix}tarikkomisi <owner only>
- 
- 𝙍𝘼𝙉𝘿𝙊𝙈 𝙈𝙀𝙉𝙐 
- ${no++} ➳ ${prefix}cecan
- ${no++} ➳ ${prefix}cogan
- ${no++} ➳ ${prefix}mobil
- ${no++} ➳ ${prefix}islamic
- ${no++} ➳ ${prefix}darkjokes
- ${no++} ➳ ${prefix}boneka
- ${no++} ➳ ${prefix}wallhp
- ${no++} ➳ ${prefix}tatasurya
- ${no++} ➳ ${prefix}programing
-
- 𝘼𝙐𝘿𝙄𝙊 𝘾𝙃𝘼𝙉𝙂𝙀𝙍 
- ${no++} ➳ ${prefix}fat
- ${no++} ➳ ${prefix}fast
- ${no++} ➳ ${prefix}slow
- ${no++} ➳ ${prefix}bass
- ${no++} ➳ ${prefix}deep
- ${no++} ➳ ${prefix}tupai
- ${no++} ➳ ${prefix}robot
- ${no++} ➳ ${prefix}blown
- ${no++} ➳ ${prefix}smooth
- ${no++} ➳ ${prefix}earrape
- ${no++} ➳ ${prefix}reverse
- ${no++} ➳ ${prefix}nightcore
-
- 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉 𝙈𝙀𝙉𝙐 
- ${no++} ➳ ${prefix}gempa
- ${no++} ➳ ${prefix}jadwaltv
- ${no++} ➳ ${prefix}gempanow
- ${no++} ➳ ${prefix}bioskopnow
- ${no++} ➳ ${prefix}latintoaksara
- ${no++} ➳ ${prefix}aksaratolatin
-
- 𝙒𝘼𝙇𝙇𝙋𝘼𝙋𝙀𝙍 𝙈𝙀𝙉𝙐 
- ${no++} ➳ ${prefix}wallpaperislami
- ${no++} ➳ ${prefix}wallpaperinori
- ${no++} ➳ ${prefix}wallpaperanime
- ${no++} ➳ ${prefix}wallpapergamer
- ${no++} ➳ ${prefix}wallpapermeme
- ${no++} ➳ ${prefix}wallpaperprogamer
- ${no++} ➳ ${prefix}wallpaperteknologi
- ${no++} ➳ ${prefix}wallpapercyber
-
- 𝘾𝙀𝙍𝙋𝙀𝙉 𝙈𝙀𝙉𝙐 
- ${no++} ➳ ${prefix}cerpen-sejarah
- ${no++} ➳ ${prefix}cerpen-sedih
- ${no++} ➳ ${prefix}cerpen-sastra
- ${no++} ➳ ${prefix}cerpen-romantis
- ${no++} ➳ ${prefix}cerpen-rohani
- ${no++} ➳ ${prefix}cerpen-rindu
- ${no++} ➳ ${prefix}cerpen-remaja
- ${no++} ➳ ${prefix}cerpen-ramadhan
- ${no++} ➳ ${prefix}cerpen-petualangan
- ${no++} ➳ ${prefix}cerpen-persahabatan
- ${no++} ➳ ${prefix}cerpen-perpisahan
- ${no++} ➳ ${prefix}cerpen-perjuangan
- ${no++} ➳ ${prefix}cerpen-penyesalan
- ${no++} ➳ ${prefix}cerpen-pengorbanan
- ${no++} ➳ ${prefix}cerpen-pengalaman
- ${no++} ➳ ${prefix}cerpen-pendidikan
- ${no++} ➳ ${prefix}cerpen-penantian
- ${no++} ➳ ${prefix}cerpen-patahhati
- ${no++} ➳ ${prefix}cerpen-olahraga
- ${no++} ➳ ${prefix}cerpen-nasionalisme
- ${no++} ➳ ${prefix}cerpen-nasihat
- ${no++} ➳ ${prefix}cerpen-motivasi
- ${no++} ➳ ${prefix}cerpen-misteri
- ${no++} ➳ ${prefix}cerpen-mengharukan
- ${no++} ➳ ${prefix}cerpen-malaysia
- ${no++} ➳ ${prefix}cerpen-liburan
- ${no++} ➳ ${prefix}cerpen-kristen
- ${no++} ➳ ${prefix}cerpen-korea
- ${no++} ➳ ${prefix}cerpen-kisahnyata
- ${no++} ➳ ${prefix}cerpen-keluarga
- ${no++} ➳ ${prefix}cerpen-kehidupan
- ${no++} ➳ ${prefix}cerpen-jepang
- ${no++} ➳ ${prefix}cerpen-inspiratif
- ${no++} ➳ ${prefix}cerpen-gokil
- ${no++} ➳ ${prefix}cerpen-galau
- ${no++} ➳ ${prefix}cerpen-cintasejati
- ${no++} ➳ ${prefix}cerpen-cintasegitiga
- ${no++} ➳ ${prefix}cerpen-cintasedih
- ${no++} ➳ ${prefix}cerpen-cintaromantis
- ${no++} ➳ ${prefix}cerpen-cintapertama
- ${no++} ➳ ${prefix}cerpen-cintaislami
- ${no++} ➳ ${prefix}cerpen-cinta
- ${no++} ➳ ${prefix}cerpen-budaya
- ${no++} ➳ ${prefix}cerpen-bahasasunda
- ${no++} ➳ ${prefix}cerpen-bahasajawa
- ${no++} ➳ ${prefix}cerpen-bahasainggris
- ${no++} ➳ ${prefix}cerpen-bahasadaerah
- ${no++} ➳ ${prefix}cerpen-anak
-
- 𝙏𝙀𝙓𝙏𝙋𝙍𝙊 𝙈𝙀𝙉𝙐 
- ${no++} ➳ ${prefix}metallic text
- ${no++} ➳ ${prefix}naruto text
- ${no++} ➳ ${prefix}butterfly text
- ${no++} ➳ ${prefix}flaming text
- ${no++} ➳ ${prefix}shadow text
- ${no++} ➳ ${prefix}cup text
- ${no++} ➳ ${prefix}cup1 text
- ${no++} ➳ ${prefix}romance text
- ${no++} ➳ ${prefix}smoke text
- ${no++} ➳ ${prefix}burnpaper text
- ${no++} ➳ ${prefix}lovemessage text
- ${no++} ➳ ${prefix}undergrass text
- ${no++} ➳ ${prefix}love text
- ${no++} ➳ ${prefix}coffe text
- ${no++} ➳ ${prefix}woodheart text
- ${no++} ➳ ${prefix}woodenboard text
- ${no++} ➳ ${prefix}summer3d text
- ${no++} ➳ ${prefix}wolfmetal text
- ${no++} ➳ ${prefix}nature3d text
- ${no++} ➳ ${prefix}underwater text
- ${no++} ➳ ${prefix}goldenrose text
- ${no++} ➳ ${prefix}summernature text
- ${no++} ➳ ${prefix}letterleaves text
- ${no++} ➳ ${prefix}glowingneon text
- ${no++} ➳ ${prefix}fallleaves text
- ${no++} ➳ ${prefix}flamming text
- ${no++} ➳ ${prefix}harrypotter text
- ${no++} ➳ ${prefix}carvedwood text
- ${no++} ➳ ${prefix}tiktok text1 text2
- ${no++} ➳ ${prefix}arcade8bit text1 text2
- ${no++} ➳ ${prefix}battlefield4 text1 text2
- ${no++} ➳ ${prefix}pubg text1 text2
-
- 𝙀𝙋𝙃𝙊𝙏𝙊 𝙈𝙀𝙉𝙐 
- ${no++} ➳ ${prefix}wetglass text
- ${no++} ➳ ${prefix}multicolor3d text
- ${no++} ➳ ${prefix}watercolor text
- ${no++} ➳ ${prefix}luxurygold text
- ${no++} ➳ ${prefix}galaxywallpaper text
- ${no++} ➳ ${prefix}lighttext text
- ${no++} ➳ ${prefix}beautifulflower text
- ${no++} ➳ ${prefix}puppycute text
- ${no++} ➳ ${prefix}royaltext text
- ${no++} ➳ ${prefix}heartshaped text
- ${no++} ➳ ${prefix}birthdaycake text
- ${no++} ➳ ${prefix}galaxystyle text
- ${no++} ➳ ${prefix}hologram3d text
- ${no++} ➳ ${prefix}greenneon text
- ${no++} ➳ ${prefix}glossychrome text
- ${no++} ➳ ${prefix}greenbush text
- ${no++} ➳ ${prefix}metallogo text
- ${no++} ➳ ${prefix}noeltext text
- ${no++} ➳ ${prefix}glittergold text
- ${no++} ➳ ${prefix}textcake text
- ${no++} ➳ ${prefix}starsnight text
- ${no++} ➳ ${prefix}wooden3d text
- ${no++} ➳ ${prefix}textbyname text
- ${no++} ➳ ${prefix}writegalacy text
- ${no++} ➳ ${prefix}galaxybat text
- ${no++} ➳ ${prefix}snow3d text
- ${no++} ➳ ${prefix}birthdayday text
- ${no++} ➳ ${prefix}goldplaybutton text
- ${no++} ➳ ${prefix}silverplaybutton text
- ${no++} ➳ ${prefix}freefire text
  `
 }
 
@@ -381,6 +212,58 @@ _iam developer bot whatsapp._
  *Sosial Media*
  • *Whatsapp:* 62895371549895
  • *Youtube:* Rias Gremory
- • *Github:* Lexxy24
+ • *Github:* BerkahEsport
  `
+}
+
+exports.cerpen = (prefix) => {
+    return `𝘾𝙀𝙍𝙋𝙀𝙉 𝙈𝙀𝙉𝙐 
+    ✔️ ➳ ${prefix}cerpen-sejarah
+    ✔️ ➳ ${prefix}cerpen-sedih
+    ✔️ ➳ ${prefix}cerpen-sastra
+    ✔️ ➳ ${prefix}cerpen-romantis
+    ✔️ ➳ ${prefix}cerpen-rohani
+    ✔️ ➳ ${prefix}cerpen-rindu
+    ✔️ ➳ ${prefix}cerpen-remaja
+    ✔️ ➳ ${prefix}cerpen-ramadhan
+    ✔️ ➳ ${prefix}cerpen-petualangan
+    ✔️ ➳ ${prefix}cerpen-persahabatan
+    ✔️ ➳ ${prefix}cerpen-perpisahan
+    ✔️ ➳ ${prefix}cerpen-perjuangan
+    ✔️ ➳ ${prefix}cerpen-penyesalan
+    ✔️ ➳ ${prefix}cerpen-pengorbanan
+    ✔️ ➳ ${prefix}cerpen-pengalaman
+    ✔️ ➳ ${prefix}cerpen-pendidikan
+    ✔️ ➳ ${prefix}cerpen-penantian
+    ✔️ ➳ ${prefix}cerpen-patahhati
+    ✔️ ➳ ${prefix}cerpen-olahraga
+    ✔️ ➳ ${prefix}cerpen-nasionalisme
+    ✔️ ➳ ${prefix}cerpen-nasihat
+    ✔️ ➳ ${prefix}cerpen-motivasi
+    ✔️ ➳ ${prefix}cerpen-misteri
+    ✔️ ➳ ${prefix}cerpen-mengharukan
+    ✔️ ➳ ${prefix}cerpen-malaysia
+    ✔️ ➳ ${prefix}cerpen-liburan
+    ✔️ ➳ ${prefix}cerpen-kristen
+    ✔️ ➳ ${prefix}cerpen-korea
+    ✔️ ➳ ${prefix}cerpen-kisahnyata
+    ✔️ ➳ ${prefix}cerpen-keluarga
+    ✔️ ➳ ${prefix}cerpen-kehidupan
+    ✔️ ➳ ${prefix}cerpen-jepang
+    ✔️ ➳ ${prefix}cerpen-inspiratif
+    ✔️ ➳ ${prefix}cerpen-gokil
+    ✔️ ➳ ${prefix}cerpen-galau
+    ✔️ ➳ ${prefix}cerpen-cintasejati
+    ✔️ ➳ ${prefix}cerpen-cintasegitiga
+    ✔️ ➳ ${prefix}cerpen-cintasedih
+    ✔️ ➳ ${prefix}cerpen-cintaromantis
+    ✔️ ➳ ${prefix}cerpen-cintapertama
+    ✔️ ➳ ${prefix}cerpen-cintaislami
+    ✔️ ➳ ${prefix}cerpen-cinta
+    ✔️ ➳ ${prefix}cerpen-budaya
+    ✔️ ➳ ${prefix}cerpen-bahasasunda
+    ✔️ ➳ ${prefix}cerpen-bahasajawa
+    ✔️ ➳ ${prefix}cerpen-bahasainggris
+    ✔️ ➳ ${prefix}cerpen-bahasadaerah
+    ✔️ ➳ ${prefix}cerpen-anak`
 }
