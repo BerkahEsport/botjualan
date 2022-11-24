@@ -13,7 +13,7 @@ const { mediafireDl } = require('./function/scrape_Mediafire')
 const { webp2mp4File } = require("./function/Webp_Tomp4")
 const { cerpen } = require('./function/Search_Cerpen')
 const { bioskop, bioskopNow, latinToAksara, aksaraToLatin, gempa, gempaNow, jadwalTV, listJadwalTV, jadwalsholat} = require ('@bochilteam/scraper') 
-const { listmenu, rulesBot, donasiBot, infoOwner } = require('./help')
+const { listmenu, rulesBot, donasiBot, infoOwner,cerpen } = require('./help')
 const { jadibot, listJadibot } = require('./function/jadibot')
 
 // database virtex
@@ -3258,7 +3258,9 @@ reply('Terjadi Kesalahan!!\nUrl tidak valid')
 })
 }
 break
-
+	case 'cerpen':{
+		reply(cerpen())}
+		break
 default:
 
 }} catch (err) {
