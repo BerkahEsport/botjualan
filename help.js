@@ -19,7 +19,7 @@ return`
  Date : ${tanggal}
  Terdaftar : ${usernya}
  Room Chat : ${romnya}
- Total Fitur : 600+
+ Total Fitur : ${no.length}
 
  𝙈𝘼𝙄𝙉 𝙈𝙀𝙉𝙐 
  ${no++} ➳ ${prefix}menu
