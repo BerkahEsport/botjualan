@@ -166,7 +166,7 @@ return`
  ${no++} ➳ ${prefix}order <cara order>
  ${no++} ➳ ${prefix}like jumlah|target
  ${no++} ➳ ${prefix}view jumlah|target
- ${no++} ➳ ${prefix}follower jumlah|username
+ ${no++} ➳ ${prefix}follow jumlah|username
  ${no++} ➳ ${prefix}cekstatus <idtrx>
  ${no++} ➳ ${prefix}komisi <owner only>
  ${no++} ➳ ${prefix}tarikkomisi <owner only>
@@ -181,25 +181,6 @@ return`
  ${no++} ➳ ${prefix}wallhp
  ${no++} ➳ ${prefix}tatasurya
  ${no++} ➳ ${prefix}programing
-
- 𝙋𝙍𝙄𝙈𝘽𝙊𝙉 𝙈𝙀𝙉𝙐 
- ${no++} ➳ ${prefix}ramaljodoh
- ${no++} ➳ ${prefix}ramalanjodoh
- ${no++} ➳ ${prefix}nomorhoki
- ${no++} ➳ ${prefix}artimimpi
- ${no++} ➳ ${prefix}artinama
- ${no++} ➳ ${prefix}sifatusaha
- ${no++} ➳ ${prefix}tafsirmimpi
- ${no++} ➳ ${prefix}pasangan
- ${no++} ➳ ${prefix}suamiistri
- ${no++} ➳ ${prefix}ramalcinta
- ${no++} ➳ ${prefix}ramalancinta
- ${no++} ➳ ${prefix}ramaljodohbali
- ${no++} ➳ ${prefix}ramalanjodohbali
- ${no++} ➳ ${prefix}cocoknama
- ${no++} ➳ ${prefix}kecocokannama
- ${no++} ➳ ${prefix}cocokpasangan
- ${no++} ➳ ${prefix}kecocokanpasangan
 
  𝘼𝙐𝘿𝙄𝙊 𝘾𝙃𝘼𝙉𝙂𝙀𝙍 
  ${no++} ➳ ${prefix}fat
